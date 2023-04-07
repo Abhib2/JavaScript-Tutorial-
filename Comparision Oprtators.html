@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>equale</h2>
+    <h1 id="equal" style="margin:50px auto; "></h1>
+
+    <h2>notequale</h2>
+    <h1 id="notequal" style="margin:50px auto; "></h1>
+
+    <h2>Greaterthan</h2>
+    <h1 id="Greaterthan" style="margin:50px auto; "></h1>
+
+    <h2>Lessthan</h2>
+    <h1 id="Lessthan" style="margin:50px auto; "></h1>
+
+    <h2>Greaterthan or Equal to</h2>
+    <h1 id="Greater" style="margin:50px auto; "></h1>
+
+    <h2>Lessthan or Equal to</h2>
+    <h1 id="Less" style="margin:50px auto; "></h1>
+
+</body>
+<script type="text/javascript">
+    // equal
+    var a=5;
+    var b=6;
+    z = a==b;
+    document.getElementById('equal').innerHTML=z;
+
+    //not equal
+    var d=10;
+    var e=15;
+    f = d!=e;
+    document.getElementById('notequal').innerHTML=f;
+
+       //Greaterthan
+       var d=20;
+       var e=15;
+       f = d>e;
+       document.getElementById('Greaterthan').innerHTML=f;
+
+    //Lessthan
+    var d=10;
+    var e=15;
+    f = d<e;
+    document.getElementById('Lessthan').innerHTML=f;
+
+
+       //Greater than or Equal to
+       var d=10;
+       var e=15;
+       f = d>=e;
+       document.getElementById('Greater').innerHTML=f;
+
+    //Less than or Equal to 
+    var d=10;
+    var e=15;
+    f = d<=e;
+    document.getElementById('Less').innerHTML=f;
+</script>
+</html>
