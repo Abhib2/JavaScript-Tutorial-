@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>add</h2>
+    <h1 id="add" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>sub</h2>
+    <h1 id="sub" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>multiplication</h2>
+    <h1 id="multi" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>division</h2>
+    <h1 id="divi" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>division</h2>
+    <h1 id="divi2" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>modulus</h2>
+    <h1 id="modu" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>modulus</h2>
+    <h1 id="modu2" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>Increment</h2>
+    <h1 id="incre" style="margin: 50px auto; width:300px"></h1>
+
+    <h2>Decrement</h2>
+    <h1 id="decre" style="margin: 50px auto; width:300px"></h1>
+
+</body>
+<script type="text/javascript">
+    // ADDITION
+    var x = 10;
+    var y = 43;
+    var z = x+y;
+    document.getElementById('add').innerHTML = z;
+
+      // subtraction
+      var x = 10;
+      var y = 43;
+      var z = x-y;
+      document.getElementById('sub').innerHTML = z;
+
+    // multiplication
+    var x = 10;
+    var y = 43;
+    var z = x*y;
+    document.getElementById('multi').innerHTML = z;
+
+      // DIVISON
+      var x = 40;
+      var y = 10;
+      var z = x/y;
+      document.getElementById('divi').innerHTML = z;
+
+        // DIVISON
+        var x = 40;
+        var y = 0;
+        var z = x/y;
+        document.getElementById('divi2').innerHTML = z;
+
+      // modulus
+      var x = 40;
+      var y = 10;
+      var z = x%y;
+      document.getElementById('modu').innerHTML = z;
+
+      // modulus
+      var x = 45;
+      var y = 10;
+      var z = x%y;
+      document.getElementById('modu2').innerHTML = z;
+
+      //Increment
+      var x=8;
+      x++; // x=x+1
+      document.getElementById('incre').innerHTML=x;
+
+      //Decrement
+      var n=8;
+      n--; // x=x-1
+      document.getElementById('decre').innerHTML=n;
+</script>
+</html>
